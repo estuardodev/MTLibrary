@@ -1,1 +1,6 @@
-test.py
+*test.py
+*setup.py
+/venv
+/mtlibrary.e*
+/dist
+/build
