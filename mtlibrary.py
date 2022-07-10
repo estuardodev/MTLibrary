@@ -18,7 +18,7 @@ def suma(num, num2):
 
 def resta(num, num2):
     try:
-        resta = num + num2
+        resta = num - num2
         return resta
     except TypeError:
         tipo = "resta"
@@ -27,7 +27,7 @@ def resta(num, num2):
 
 def multiplicacion(num, num2):
     try:
-        multiplicacion = num + num2
+        multiplicacion = num * num2
         return multiplicacion
     except TypeError:
         tipo = "multiplicación"
