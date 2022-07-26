@@ -7,6 +7,11 @@ Author: Estuardo Ramírez
 Social: @estuardodev | Twitter, GitHub, Instagram
 '''
 
+# Variables globales
+pi = 3.141592653589793
+tau = 6.283185307179586
+e = 2.718281828459045
+
 def suma(dato1=0, dato2=0):
     '''
     SUMA:\n
