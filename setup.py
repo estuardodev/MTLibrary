@@ -8,7 +8,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name='mtlibrary',
-    version='2.0.3',
+    version='2.0.4',
     description='MTLibrary es una libreria en español desarrollada para resolver problemas matemáticos y así ayudar a esos programadores con bajos conocimientos con librerias en inglés.',
     long_description=long_description,
     long_description_content_type="text/markdown",
