@@ -1,7 +1,7 @@
 '''
 Name: MTLibrary
 Versión: 2.0
-Versión-desarrollo: 2.0.4
+Versión-desarrollo: 2.0.5
 Description: MTLibrary es una libreria para Python para fácilitar las matemáticas en Python en español.
 Author: Estuardo Ramírez
 Social: @estuardodev | Twitter, GitHub, Instagram
@@ -559,3 +559,102 @@ def redondar_raiz_abajo(dato1=0):
         tipo = "redondar raiz abajo"
         error = f"Se ha ingresado un valor invalido al {tipo}"
         return error
+
+def minimo_comun_multiplo(dato1=0, dato2=0):
+    '''
+    LCM:\n
+    Devolvera el mínimo común multiplo del valor dado
+    '''
+    try:
+        resultado = math.lcm(dato1, dato2)
+        return resultado
+    except TypeError:
+        tipo = "mínimo común multiplo"
+        error = f"Se ha ingresado un valor invalido en el {tipo}"
+        return error
+
+
+def multi_por_2_elevado_a_la_potencia_de_un_exponente(dato1=0, dato2=0):
+    '''
+    Multiplicar por 2 elevado a la potencia de un exponente:\n
+    Devolvera el multiplicar por 2 elevado a la potencia de un exponente del valor dado
+    '''
+    try:
+        resultado = math.ldexp(dato1, dato2)
+        return resultado
+    except TypeError:
+        tipo = "multiplicar por 2 elevado a la potencia de un exponente"
+        error = f"Se ha ingresado un valor invalido en el {tipo}"
+        return error
+
+
+def logaritmo_natural_del_valor_absoluto(dato1=0):
+    '''
+    LGAMMA:\n
+    Devolvera el logaritmo natural del valor absoluto del valor dado
+    '''
+    try:
+        resultado = math.lgamma(dato1)
+        return resultado
+    except TypeError:
+        tipo = "logaritmo natural del valor absoluto"
+        error = f"Se ha ingresado un valor invalido en el {tipo}"
+        return error
+
+
+def log(dato1=0, base=0):
+    '''
+    LOG:\n
+    Devolvera el log del valor dado
+    '''
+    try:
+        resultado = math.log(dato1, base)
+        return resultado
+    except TypeError:
+        tipo = "log"
+        error = f"Se ha ingresado un valor invalido en el {tipo}"
+        return error
+
+
+def log10(dato1=0):
+    '''
+    LOG10:\n
+    Devolvera el log10 del valor dado
+    '''
+    try:
+        resultado = math.log10(dato1)
+        return resultado
+    except TypeError:
+        tipo = "log10"
+        error = f"Se ha ingresado un valor invalido en el {tipo}"
+        return error
+
+
+def log1p(dato1=0):
+    '''
+    LOG1P:\n
+    Devolvera el log1p del valor dado
+    '''
+    try:
+        resultado = math.log1p(dato1)
+        return resultado
+    except TypeError:
+        tipo = "log1p"
+        error = f"Se ha ingresado un valor invalido en el {tipo}"
+        return error
+
+
+def log2(dato1=0):
+    '''
+    LOG2:\n
+    Devolvera el log2 del valor dado
+    '''
+    try:
+        resultado = math.log2(dato1)
+        return resultado
+    except TypeError:
+        tipo = "log2"
+        error = f"Se ha ingresado un valor invalido en el {tipo}"
+        return error
+
+

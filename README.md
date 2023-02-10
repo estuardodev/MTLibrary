@@ -1,10 +1,9 @@
 # MTLibrary 2.0
 ¡MTLibrary 2 esta aquí!
 
-
 MTLibrary es una libreria en español desarrollada para resolver problemas matemáticos y así ayudar a esos programadores con bajos conocimientos con librerias en inglés.
 
-### Operaciones
+### Algunas operaciones son:
 - Suma
 - Resta
 - Multiplicación
@@ -15,108 +14,59 @@ MTLibrary es una libreria en español desarrollada para resolver problemas matem
 - Porcentajes
 - Área
 - Radio de un circulo
-
-Próximamente más
+- Y MUCHO MÁS
 
 ## Como utilizarlo
-Acá te dejo un breve resumen de como utilizar cada función.
+Acá te dejo un breve resumen de como utilizar el módulo.
 
-### SUMA
---- 
-    import mtlibrary
-
-    dato1 = 2
-    dato2 = 2
-    print(mtlibrary.suma(dato1, dato2))
-    
-    RESULTADO --> 4
-
-### Resta
---- 
-    import mtlibrary
-
-    dato1 = 4
-    dato2 = 2
-    print(mtlibrary.resta(dato1, dato2))
-    
-    RESULTADO --> 2
-
-### Multiplicación
---- 
-    import mtlibrary
-
-    dato1 = 2
-    dato2 = 2
-    print(mtlibrary.multiplicacion(dato1, dato2))
-    
-    RESULTADO --> 4
-
-### División
---- 
-    import mtlibrary
-
-    dato1 = 6
-    dato2 = 2
-    print(mtlibrary.division(dato1, dato2))
-    
-    RESULTADO --> 3
-
-### Potencia
---- 
-    import mtlibrary
-
-    dato1 = 2
-    dato2 = 3
-    print(mtlibrary.potencia(dato1, dato2))
-    
-    RESULTADO --> 8
-
-### Residuo
---- 
-    import mtlibrary
-
-    dato1 = 10
-    dato2 = 3
-    print(mtlibrary.resiudo(dato1, dato2))
-    
-    RESULTADO --> 1
-
-### Raíz cuadrada
---- 
-    import mtlibrary
-
-    dato1 = 64
-    print(mtlibrary.raiz(dato1))
-    
-    RESULTADO --> 8
-
-### Porcentajes
---- 
-    import mtlibrary
-
-    dato1 = 100
-    dato2 = 25
-    print(mtlibrary.porcentaje(dato1, dato2))
-    
-    RESULTADO --> 25
-
-### Área
---- 
-    import mtlibrary
-
-    dato1 = 100
-    print(mtlibrary.area(dato1))
-    
-    RESULTADO --> 31415.926535897932
-
-### Radio de un Circulo
---- 
-    import mtlibrary
-
-    dato1 = 100
-    print(mtlibrary.radio(dato1))
-
-    RESULTADO --> 50
+### Puedes utilizar:
+- suma
+- resta
+- multiplicación
+- división
+- residuo
+- raiz
+- radio
+- area
+- porcentaje
+- potencia
+- arcocoseno
+- cosenoh
+- seno_h
+- tangente_a
+- tangente_a2
+- arcotangente_h
+- redondear_arriba
+- combinaciones
+- copiar_signo
+- coseno
+- coseno_h
+- angulos_radianes_g
+- distancia
+- error_print
+- error_print_complementaria
+- e_elevado
+- e_elevado_1
+- valor_absoluto
+- factorial
+- redendeo_abajo
+- frexp
+- suma_iterables
+- gamma
+- mayor_divisor_comun
+- hipotenusa
+- valores_cerca
+- finito
+- infinito
+- es_nan
+- redondar_raiz_abajo
+- minimo_comun_multiplo
+- multi_por_2_elevado_a_la_potencia_de_un_exponente
+- logaritmo_natural_del_valor_absoluto
+- log
+- log10
+- log1p
+- log2
 
 ---
 ## Author
