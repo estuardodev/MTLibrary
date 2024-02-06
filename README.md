@@ -67,6 +67,7 @@ Acá te dejo un breve resumen de como utilizar el módulo.
 - log10
 - log1p
 - log2
+- Proximamente más
 
 ---
 ## Author
