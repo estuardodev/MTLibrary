@@ -1,7 +1,7 @@
 '''
 Name: MTLibrary
 Versión: 2.0
-Versión-desarrollo: 2.0.5
+Versión-desarrollo: 2.0.6
 Description: MTLibrary es una libreria para Python para fácilitar las matemáticas en Python en español.
 Author: Estuardo Ramírez
 Social: @estuardodev | Twitter, GitHub, Instagram
